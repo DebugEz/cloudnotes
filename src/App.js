@@ -23,7 +23,7 @@ function App() {
 }
   return (
     <>
-   <BrowserRouter> 
+   <BrowserRouter basename='/cloudnotes'> 
    <NoteState>
    <Navbar/>
    <Alert alert={alert}/>
